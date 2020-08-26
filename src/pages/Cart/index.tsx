@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
 import { View, Text } from 'react-native';
@@ -52,7 +52,7 @@ const Cart: React.FC = () => {
     }, 0);
 
     return formatValue(totalValue);
-  }, []);
+  }, [products]);
 
   const totalItensInCart = useMemo(() => {
     const totalItens = products.reduce(function (sum, item) {

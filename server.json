@@ -19,6 +19,12 @@
       "price": 70
     },
     {
+      "id": "1234567",
+      "title": "MPP2",
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "price": 70
+    },
+    {
       "id": "123456",
       "title": "Nome do produto 04",
       "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
